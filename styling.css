@@ -1,0 +1,29 @@
+nav, footer{
+    display: flex;
+    width: 100%;
+    background-color: gray;
+    box-shadow: 0 0 12px -2px black;
+}
+
+.name{
+    display: flex;
+    margin: 10px;
+}
+
+.navLinks{
+    display: flex;
+    margin: 10px;
+    justify-content: flex-end;
+}
+
+body{
+    background-color: lightseagreen;
+}
+
+.quote, main{
+    background-color: lightskyblue;
+}
+
+hr{
+    color: black;
+}
