@@ -27,12 +27,28 @@ body{
 
 .quote, main{
     background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
 }
 
 hr{
     color: black;
 }
 
+.profilepic{
+    margin-right: auto;
+}
+
 img{
     max-height: 100px;
+}
+
+
+
+h1{
+    width: 100%;
 }
